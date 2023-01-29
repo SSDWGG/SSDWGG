@@ -1,10 +1,10 @@
  ### Hello   👋
 
--  👨🏻‍💻 I'm Ren 任羿玮 ， a front-end web developer
+-  👨🏻‍💻 I'm Ren ， My Chinese name is 任羿玮 ，I am  a front-end web developer now.
 -  🌱 Currently developing with Vue3 + Typescript
 -  🌻 I’m currently working on beautiful²
 -  🔭 Coding since 2021
--  ⚡  My hobbies are Coding , Fpv ✈️, Guitar 🎸 and Fitness🏃🏻‍♀️   (Welcome to follow my video: [BiliBili]( https://b23.tv/F5Jsc5O) & [Tiktok]( https://v.douyin.com/k8EE8cc/)).
+-  ⚡  My hobbies are Coding , Fpv ✈️, Guitar 🎸 and Fitness🏃🏻‍♀️   (Welcome to follow my video: [BiliBili]( https://b23.tv/F5Jsc5O) & [Tiktok]( https://v.douyin.com/k8EE8cc/) & [Instagram]( https://instagram.com/ssdwgg?igshid=YmMyMTA2M2Y=)).
 
      
 ![WGG's GitHub](https://github-readme-stats.vercel.app/api?username=SSDWGG&show_icons=true&theme=gruvbox_light)
@@ -18,6 +18,7 @@
  [![微信](https://img.shields.io/badge/微信-white?logo=wechat)](https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/system/assets/images/PFBNBJOI-1672716509674ren.jpeg)
  [![BiliBili](https://img.shields.io/badge/BiliBili-white?logo=BiliBili)]( https://b23.tv/F5Jsc5O)
  [![Tiktok](https://img.shields.io/badge/Tiktok-grey?logo=Tiktok)]( https://v.douyin.com/k8EE8cc/)
+ [![instagram](https://img.shields.io/badge/instagram-grey?logo=instagram)]( https://instagram.com/ssdwgg?igshid=YmMyMTA2M2Y=)
 
  ### Languages and Tools
 
