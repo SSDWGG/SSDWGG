@@ -18,7 +18,8 @@
 -    <img src="https://komarev.com/ghpvc/?username=SSDWGG&label=Profile%20views&color=ff69b4&style=flat" alt="SSDWGG" />
 
  ### Get in touch
- ![](./314f04fc2e304283f7d64968320c5eef.gif)
+ ![](./314f04fc2e304283f7d64968320c5eef.GIF)
+ ![](1eeb5cfdb75c421f6da1479fc6398bec.JPEG)
 
  [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github)](https://github.com/SSDWGG)
  [![GitHubIO](https://img.shields.io/badge/GitHubIO-grey?logo=github)](https://ssdwgg.github.io)
