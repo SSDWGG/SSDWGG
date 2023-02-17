@@ -16,8 +16,11 @@
 </p>  
 
  ### Get in touch
- <img src="./314f04fc2e304283f7d64968320c5eef.GIF" alt="html5" width="90" height="90"/>
+ <div>
+  <img src="./314f04fc2e304283f7d64968320c5eef.GIF" alt="html5" width="90" height="90"/>
  <img src="./336f4df37721d3d9abfe71c0d638d999.GIF" alt="html5" width="90" height="90"/>
+ </div>
+
 
  [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github)](https://github.com/SSDWGG)
  [![GitHubIO](https://img.shields.io/badge/GitHubIO-grey?logo=github)](https://ssdwgg.github.io)
