@@ -6,11 +6,19 @@
 -  🔭 Coding since 2021
 -  ⚡  My hobbies are Coding , Fpv ✈️, Guitar 🎸 and Fitness🏃🏻‍♀️   (Welcome to follow my video: [BiliBili]( https://b23.tv/F5Jsc5O) & [Tiktok]( https://v.douyin.com/k8EE8cc/) & [Instagram]( https://instagram.com/ssdwgg?igshid=YmMyMTA2M2Y=)).
 
-     
 ![WGG's GitHub](https://github-readme-stats.vercel.app/api?username=SSDWGG&show_icons=true&theme=gruvbox_light)
+
+<a href=#><img src="contributions.svg"></a>
+
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/SSDWGG/count.svg" />
+</p>
+
 -    <img src="https://komarev.com/ghpvc/?username=SSDWGG&label=Profile%20views&color=ff69b4&style=flat" alt="SSDWGG" />
 
  ### Get in touch
+ ![](./314f04fc2e304283f7d64968320c5eef.gif)
 
  [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github)](https://github.com/SSDWGG)
  [![GitHubIO](https://img.shields.io/badge/GitHubIO-grey?logo=github)](https://ssdwgg.github.io)
