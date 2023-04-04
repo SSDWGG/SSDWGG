@@ -1,9 +1,9 @@
  ### Hello   👋
 
--  👨🏻‍💻 I'm Ren ， My Chinese name is 任羿玮 ，I am  a front-end web developer now.
+-  👨🏻‍💻 I'm Ren  ，I am  a front-end web developer now.
 -  🌱 Currently developing with Vue3 + Typescript
 -  🌻 I’m currently working on beautiful²
--  🔭 Coding since 2021
+-  🔭 Coding since 2018
 -  ⚡  My hobbies are Coding , Fpv ✈️, Guitar 🎸 and Fitness🏃🏻‍♀️   (Welcome to follow my video: [BiliBili]( https://b23.tv/F5Jsc5O) & [Tiktok]( https://v.douyin.com/k8EE8cc/) & [Instagram]( https://instagram.com/ssdwgg?igshid=YmMyMTA2M2Y=)).
 
 ![WGG's GitHub](https://github-readme-stats.vercel.app/api?username=SSDWGG&show_icons=true&theme=gruvbox_light)
