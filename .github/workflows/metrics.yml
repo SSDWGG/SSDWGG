@@ -27,8 +27,8 @@ jobs:
           cd /tmp/stats
           npm install --silent
           node --input-type=module -e "
-            import { fetchStats } from './src/fetchers/stats-fetcher.js';
-            import { renderStatsCard } from './src/cards/stats-card.js';
+            import { fetchStats } from './src/fetchers/stats.js';
+            import { renderStatsCard } from './src/cards/stats.js';
             import { writeFileSync } from 'fs';
             const stats = await fetchStats('SSDWGG');
             const svg = await renderStatsCard(stats, { show_icons: true, theme: 'gruvbox_light' });
