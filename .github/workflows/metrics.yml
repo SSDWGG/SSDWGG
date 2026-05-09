@@ -13,18 +13,19 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: SSDWGG
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Shanghai
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-          filename: github-stats.svg
+      - name: Generate stats SVG
+        run: |
+          docker run -d --name stats -p 9000:9000 ghcr.io/utkuozdemir/github-readme-stats-selfhosted:latest
+          for i in $(seq 1 10); do
+            if curl -sf "http://localhost:9000/api?username=SSDWGG&show_icons=true&theme=gruvbox_light" -o github-stats.svg; then
+              echo "Stats generated successfully"
+              break
+            fi
+            echo "Waiting for server... ($i/10)"
+            sleep 3
+          done
+          docker stop stats
+          [ -s github-stats.svg ] || exit 1
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: github-stats.svg
