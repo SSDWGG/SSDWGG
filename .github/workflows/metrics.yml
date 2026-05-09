@@ -13,23 +13,30 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Generate stats SVG
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate stats card
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
         run: |
           rm -f github-stats.svg
-          docker run -d --name stats -p 9000:9000 \
-            -e PAT_1="${{ secrets.GITHUB_TOKEN }}" \
-            ghcr.io/utkuozdemir/github-readme-stats-selfhosted:latest
-          for i in $(seq 1 20); do
-            if curl -sf "http://localhost:9000/api?username=SSDWGG&show_icons=true&theme=gruvbox_light" -o github-stats.svg; then
-              echo "Stats generated successfully"
-              break
-            fi
-            echo "Waiting for server... ($i/20)"
-            sleep 6
-          done
-          docker logs stats || true
-          docker stop stats || true
-          [ -s github-stats.svg ] || { echo "Failed to generate stats SVG"; exit 1; }
+          git clone --depth=1 https://github.com/anuraghazra/github-readme-stats.git /tmp/stats
+          cd /tmp/stats
+          npm install --silent
+          node --input-type=module -e "
+            import { fetchStats } from './src/fetchers/stats-fetcher.js';
+            import { renderStatsCard } from './src/cards/stats-card.js';
+            import { writeFileSync } from 'fs';
+            const stats = await fetchStats('SSDWGG');
+            const svg = await renderStatsCard(stats, { show_icons: true, theme: 'gruvbox_light' });
+            writeFileSync('github-stats.svg', svg);
+          "
+          cp /tmp/stats/github-stats.svg "$GITHUB_WORKSPACE/github-stats.svg"
+          echo "Stats card generated ($(wc -c < "$GITHUB_WORKSPACE/github-stats.svg") bytes)"
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: github-stats.svg
